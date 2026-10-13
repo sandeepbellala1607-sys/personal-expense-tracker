@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    margin: 0;
+    padding: 20px;
+    color: #222;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card,
+.summary {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.total {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.message {
+    background: #dcfce7;
+    padding: 10px;
+}
+
+.delete-button {
+    background: #dc2626;
+}
